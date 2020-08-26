@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "ngrok": "ngrok http --subdomain=bolt-js-getting-started-app-mwbrooks 3000",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
