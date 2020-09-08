@@ -12,8 +12,8 @@ responding to events and interactive buttons.
 
 ```zsh
 # Replace with your signing secret and token
-export SLACK_APP_BOLT_JS_GETTING_STARTED_SIGNING_SECRET=abcd1234567890123456789012345678
-export SLACK_APP_BOLT_JS_GETTING_STARTED_TOKEN=xoxb-123456789012-123456789012-abcd12345678901234567890
+export SLACK_BOT_TOKEN=<your-bot-token>
+export SLACK_SIGNING_SECRET=<your-signing-secret>
 ```
 
 ### 2. Setup your local project
