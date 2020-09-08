@@ -31,6 +31,8 @@ npm install
 
 ### 3. Start servers
 
+[Setup ngrok][3] to create a local requests URL for development.
+
 ```zsh
 npm run ngrok
 npm run start
@@ -38,3 +40,4 @@ npm run start
 
 [1]: https://slack.dev/bolt-js/tutorial/getting-started
 [2]: https://slack.dev/bolt-js/
+[3]: https://slack.dev/bolt-js/tutorial/getting-started#setting-up-events
