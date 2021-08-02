@@ -1,5 +1,11 @@
 const { App } = require('@slack/bolt');
 
+/* 
+This sample slack application uses HTTP
+For the companion getting started setup guide, 
+see: https://slack.dev/bolt-js/tutorial/getting-started-http
+*/
+
 // Initializes your app with your bot token and signing secret
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
