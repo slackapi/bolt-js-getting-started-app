@@ -1,10 +1,9 @@
 const { App } = require('@slack/bolt');
 
-// Initializes your app with your bot token and app token
+// Initializes your app with your bot token and signing secret
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
-  socketMode: true,
-  appToken: process.env.SLACK_APP_TOKEN
+  signingSecret: process.env.SLACK_SIGNING_SECRET
 });
 
 // Listens to incoming messages that contain "hello"
