@@ -11,9 +11,8 @@ responding to events and interactive buttons.
 ### 1. Setup environment variables
 
 ```zsh
-# Replace with your signing secret and token
+# Replace with your bot and app token
 export SLACK_BOT_TOKEN=<your-bot-token>
-export SLACK_SIGNING_SECRET=<your-signing-secret>
 export SLACK_APP_TOKEN=<your-app-level-token>
 ```
 
