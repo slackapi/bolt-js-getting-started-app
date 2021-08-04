@@ -13,8 +13,9 @@ All you need to work with this project is a supported version of [Node.js](https
 
 ### Updating
 
-This package is a dependency for our guides and other example apps.
-When making changes, it's important to keep all of our other guides and apps up-to-date.
+This package is a dependency for our guides and other example apps. There are many ways to configure a sample app. We prefer to keep a single version of `app.js` which should be consistent with the instructions and code blocks on the [Bolt JS Getting Started guide](https://slack.dev/bolt-js/tutorial/getting-started). This reduces the possibility of drift ocurring between multiple versions. 
+
+When making changes to this repo, it's also important to keep all of our other guides and apps up-to-date.
 
 When updating this package, please ensure the following are also updated:
 

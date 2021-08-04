@@ -1,6 +1,6 @@
 {
   "name": "bolt-js-getting-started-app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Getting Started ⚡️ Bolt for JavaScript",
   "main": "app.js",
   "scripts": {
@@ -10,6 +10,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@slack/bolt": "^2.3.0"
+    "@slack/bolt": "^3.5.0"
   }
 }
