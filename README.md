@@ -32,7 +32,6 @@ npm install
 ### 3. Start servers
 ```zsh
 npm run start
-// npm run start-http (when using HTTP protocol instead of WebSockets)
 ```
 
 ## Contributing
