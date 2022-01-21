@@ -1,0 +1,25 @@
+display_information:
+  name: Getting Started Bolt App
+features:
+  bot_user:
+    display_name: BoltApp
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - channels:history
+      - channels:join
+      - commands
+      - chat:write
+      - im:history
+settings:
+  event_subscriptions:
+    bot_events:
+      - message.channels
+      - message.im
+  interactivity:
+    is_enabled: true
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  is_hosted: false
+  token_rotation_enabled: false
