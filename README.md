@@ -53,6 +53,8 @@ Go to the installed workspace and type **Hello** in a DM to your new bot. You ca
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MaurizioBella/bolt-js-getting-started-app)
 
+<img src="deployit_less120sec.gif" width=50% height=50% >
+
 ## Contributing
 
 ### Issues and questions
