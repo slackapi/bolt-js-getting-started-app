@@ -49,6 +49,10 @@ npm run start
 
 Go to the installed workspace and type **Hello** in a DM to your new bot. You can also type **Hello** in a channel where the bot is present
 
+## Deploying to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MaurizioBella/bolt-js-getting-started-app)
+
 ## Contributing
 
 ### Issues and questions

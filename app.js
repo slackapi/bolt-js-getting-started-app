@@ -6,12 +6,17 @@ For the companion getting started setup guide,
 see: https://slack.dev/bolt-js/tutorial/getting-started 
 */
 
-// Initializes your app with your bot token and app token
-const app = new App({
-  token: process.env.SLACK_BOT_TOKEN,
-  socketMode: true,
-  appToken: process.env.SLACK_APP_TOKEN
-});
+// Initializes your app with your bot token and app token based on the socket mode setting
+const app = process.env.SOCKET_MODE ? 
+    new App({
+        token: process.env.SLACK_BOT_TOKEN,
+        signingSecret: process.env.SLACK_SIGNING_SECRET
+    }):    
+    new App({
+        token: process.env.SLACK_BOT_TOKEN,
+        socketMode: true,
+        appToken: process.env.SLACK_APP_TOKEN
+    });
 
 // Listens to incoming messages that contain "hello"
 app.message('hello', async ({ message, say }) => {
