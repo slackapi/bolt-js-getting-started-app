@@ -1,4 +1,5 @@
 # Getting Started ⚡️ Bolt for JavaScript
+>
 > Slack app example from 📚 [Getting started with Bolt for JavaScript tutorial][1]
 
 ## Overview
@@ -10,13 +11,13 @@ responding to events and interactive buttons.
 
 ### 0. Create a new Slack App
 
-- Go to https://api.slack.com/apps
+- Go to <https://api.slack.com/apps>
 - Click **Create App**
 - Choose a workspace
 - Enter App Manifest using contents of `manifest.yaml`
 - Click **Create**
 
-Once the app is created click **Install to Workspace** 
+Once the app is created click **Install to Workspace**
 Then scroll down in Basic Info and click **Generate Token and Scopes** with both scopes
 
 ### 1. Setup environment variables
@@ -41,6 +42,7 @@ npm install
 ```
 
 ### 3. Start servers
+
 ```zsh
 npm run start
 ```
@@ -63,5 +65,4 @@ See you there and thanks for helping to improve Bolt for everyone!
 
 [1]: https://slack.dev/bolt-js/tutorial/getting-started
 [2]: https://slack.dev/bolt-js/
-[3]: https://slack.dev/bolt-js/tutorial/getting-started#setting-up-events
 [4]: https://github.com/slackapi/bolt-js/issues/new

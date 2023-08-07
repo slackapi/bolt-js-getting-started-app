@@ -1,29 +1,108 @@
 display_information:
-  name: Getting Started Bolt App
+  name: PCX Jaas
+  description: QVbot
+  background_color: "#232345"
 features:
   app_home:
-    home_tab_enabled: false
+    home_tab_enabled: true
     messages_tab_enabled: true
     messages_tab_read_only_enabled: false
   bot_user:
-    display_name: BoltApp
+    display_name: PCX Jaas
     always_online: true
 oauth_config:
   scopes:
+    user:
+      - channels:history
+      - dnd:read
+      - emoji:read
+      - groups:history
+      - groups:read
+      - im:history
+      - im:read
+      - mpim:history
+      - reactions:read
+      - usergroups:read
+      - users:read
+      - channels:read
+      - mpim:read
     bot:
+      - app_mentions:read
       - channels:history
       - channels:join
+      - channels:read
+      - channels:write.invites
       - commands
-      - chat:write
+      - dnd:read
+      - emoji:read
+      - groups:history
+      - groups:read
       - im:history
+      - incoming-webhook
+      - mpim:history
+      - mpim:read
+      - reactions:read
+      - usergroups:read
+      - users:read
+      - workflow.steps:execute
+      - chat:write
 settings:
   event_subscriptions:
-    bot_events:
+    user_events:
+      - channel_left
+      - channel_rename
+      - dnd_updated
+      - dnd_updated_user
+      - emoji_changed
+      - group_close
+      - group_left
+      - group_open
+      - im_close
+      - im_created
+      - im_open
+      - member_joined_channel
+      - member_left_channel
+      - message.app_home
       - message.channels
+      - message.groups
       - message.im
+      - message.mpim
+      - reaction_added
+      - reaction_removed
+      - subteam_created
+      - subteam_members_changed
+      - subteam_self_added
+      - subteam_self_removed
+      - subteam_updated
+      - team_join
+      - user_status_changed
+    bot_events:
+      - app_home_opened
+      - app_mention
+      - channel_left
+      - dnd_updated_user
+      - emoji_changed
+      - member_joined_channel
+      - member_left_channel
+      - message.channels
+      - message.groups
+      - message.im
+      - message.mpim
+      - profile_opened
+      - reaction_added
+      - reaction_removed
+      - subteam_created
+      - subteam_members_changed
+      - subteam_updated
+      - team_join
+      - user_status_changed
+      - workflow_deleted
+      - workflow_published
+      - workflow_step_deleted
+      - workflow_step_execute
+      - workflow_unpublished
   interactivity:
     is_enabled: true
-  org_deploy_enabled: false
+  org_deploy_enabled: true
   socket_mode_enabled: true
-  is_hosted: false
   token_rotation_enabled: false

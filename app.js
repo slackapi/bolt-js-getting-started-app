@@ -1,4 +1,6 @@
 const { App } = require('@slack/bolt');
+require('dotenv').config();
+
 
 /* 
 This sample slack application uses SocketMode
