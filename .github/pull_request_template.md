@@ -1,4 +1,4 @@
-###  Summary
+### Summary
 
 Describe the goal of this pull request. Mention any related issue numbers from [slackapi/bolt-js/issues](https://github.com/slackapi/bolt-js/issues).
 
