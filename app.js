@@ -1,10 +1,10 @@
 const { App } = require('@slack/bolt');
 
-/* 
-This sample slack application uses SocketMode
-For the companion getting started setup guide, 
-see: https://slack.dev/bolt-js/tutorial/getting-started 
-*/
+/**
+ * This sample slack application uses SocketMode.
+ * For the companion getting started setup guide, see:
+ * https://tools.slack.dev/bolt-js/getting-started/
+ */
 
 // Initializes your app with your bot token and app token
 const app = new App({
